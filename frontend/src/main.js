@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+import './assets/output.css'
 
 /* import the fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core'
