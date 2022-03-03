@@ -8,9 +8,13 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { 
   faBars,
   faMagnifyingGlass,
-  faArrowRight
+  faArrowRight,
+  faAngleLeft,
+  faCartShopping,
+  faStar,
+  faEllipsisVertical
 } from '@fortawesome/free-solid-svg-icons'
-import {  } from '@fortawesome/free-regular-svg-icons'
+import { faClock } from '@fortawesome/free-regular-svg-icons'
 
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
@@ -19,7 +23,12 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 library.add(
   faBars,
   faMagnifyingGlass,
-  faArrowRight
+  faArrowRight,
+  faAngleLeft,
+  faCartShopping,
+  faClock,
+  faStar,
+  faEllipsisVertical
 )
 
 /* add font awesome icon component */
