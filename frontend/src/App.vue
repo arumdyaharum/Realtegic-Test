@@ -1,19 +1,11 @@
 <template>
-  <div id="app" class="w-[300px] h-[710px] overflow-hidden border">
-    <!-- <Home></Home> -->
-    <Search />
+  <div id="app" class="w-[300px] h-[750px] overflow-hidden border">
+    <router-view/>
   </div>
 </template>
 
 <script>
-// import Home from './components/Home.vue';
-import Search from './components/Search.vue';
-
 export default {
-  name: 'App',
-  components: {
-    // Home,
-    Search,
-  }
+  name: "App",
 }
 </script>

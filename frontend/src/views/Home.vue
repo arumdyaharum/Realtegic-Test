@@ -8,10 +8,10 @@
     <div class="px-5">
       <p>Hi, Andrea</p>
       <p class="text-xl font-bold">What are you looking for today?</p>
-      <button class="w-full flex items-center my-5 px-3 py-2 border border-gray-300 rounded-md text-gray-300">
+      <router-link to="/search" class="w-full flex items-center my-5 px-3 py-2 border border-gray-300 rounded-md text-gray-300">
         <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
         <span class="pl-3">Search headphone</span>
-      </button>
+      </router-link>
     </div>
     <div class="h-full py-5 overflow-hidden rounded-t-xl bg-gray-100">
       <div class="px-5 mb-3 flex overflow-x-scroll">

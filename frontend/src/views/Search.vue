@@ -1,7 +1,9 @@
 <template>
   <div class="h-full w-full">
     <div class="px-5 py-3 flex justify-between items-center">
-      <font-awesome-icon icon="fa-solid fa-angle-left" />
+      <router-link to="/">
+        <font-awesome-icon icon="fa-solid fa-angle-left" />
+      </router-link>
       <p class="font-bold">Search</p>
       <font-awesome-icon icon="fa-solid fa-cart-shopping" />
     </div>
